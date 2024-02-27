@@ -1,7 +1,3 @@
-fun println(indexOf: Any, s: String) {
-
-}
-
 fun main() {
     println(fullname())
     greeting("Edna")
@@ -21,6 +17,13 @@ fun main() {
     println(fruit.indexOf("v"))
     println(fruit.indexOf("A"))
     println(fruit.lastIndexOf("o"))
+
+    var sent = "A big stone hit the big bird"
+    val words = sent.split("")
+    println(words)
+
+
+
 
 
 }
